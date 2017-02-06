@@ -38,8 +38,7 @@ public class EndpointAsyncTask extends AsyncTask<com.udacity.gradle.builditbigge
 
             // end options for devappserver
             MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(), new AndroidJsonFactory(), null)
-//                    .setRootUrl("https://xxx.appspot.com/_ah/api/");
-                    .setRootUrl("https://udacity-p04-05022017.appspot.com/_ah/api/");
+                    .setRootUrl("https://xxx.appspot.com/_ah/api/"); // Please update the url accordingly
 
             myApiService = builder.build();
         }
