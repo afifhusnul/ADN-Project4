@@ -11,9 +11,7 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 
 import com.example.jokesfactory.DisplayJokeActivity;
-import com.example.jokesfactory.DisplayJokeActivity;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+
 
 
 /**
